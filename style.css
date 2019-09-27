@@ -1,0 +1,153 @@
+.top_banner{
+	display: flex;
+	background-color: #5d1214;
+	width: 100%;
+	height: 150px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.cf_logo{
+	padding-left: 40px;
+}
+.fullstack{
+	justify-self: flex-end;
+	padding-right: 220px;
+}
+
+#navbar{
+	font-size: 22px;
+	font-weight: bold;
+	background-color: black;
+
+}
+
+.links{
+	margin: 5px;
+	padding: 10px;
+}
+
+a:link{
+	text-decoration: none;
+	color: white;
+}
+
+a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.main_top{
+	margin: 0 50px;
+}
+
+#date{
+	margin-top: 5px;
+	font-weight: bold;
+	color: grey;
+	text-align: right;
+}
+
+.top_news{
+	padding-left: 5px;
+	font-size: 22px;
+	font-weight: 500;
+	background-color: lightgrey;
+}
+
+
+.main_middle{
+	display: flex;
+	margin: 0 50px;
+}
+
+.left{
+	height: 100%;
+	width: 90%;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+}
+
+.right{
+	min-height: 100%;
+	width: 10%;
+}
+
+.right > img{
+	height: 100%;
+	width: 100%;
+}
+
+.mainpics {
+	width: 100%;
+	height:80%;
+}
+
+.pics > p {
+	background-color: black;
+	color: white;
+	padding: 1em;
+	font-size: 18px;
+	margin-top: -10px;
+}
+
+.pics {
+	margin-right: 20px;
+}
+
+.left > p.top_news {
+	width: 98%;
+}
+
+div.center_banner > img {
+	display: block;
+	width: 80%;
+	margin: 20px auto;
+}
+
+#main_bottom > div.right img {
+	width: 100%;
+	height: 1132px;
+}
+
+#main_bottom > div.left > div.row > div.pics {
+	height: 600px;
+	width: 550px;
+}
+#main_bottom > div.left {
+	width: 85%;
+}
+
+#main_bottom > div.right {
+	width: 15%;
+	min-height: 100%;
+}
+
+#main_bottom > div.left > div.row > div.pics {
+	margin-bottom: 0px;
+}
+
+footer {
+	background-color: black;
+	padding: 1em;
+}
+
+footer > img {
+	display: block;
+	margin: 1em 20px 1em auto;
+}
+
+footer > p{
+	color: white;
+	text-align: center;
+	margin-bottom: 0;
+	font-size: 1.1em;
+}
